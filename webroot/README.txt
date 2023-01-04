@@ -1,5 +1,3 @@
-# Pass_sorter
-Symfony Framework  Pass sorter program 
 Requirement Symfony 6.*
 PHP 8.0
 
@@ -51,8 +49,4 @@ to destination Path
 D:\xampp\htdocs\hmc
 
 then you can run now below URL 
-
-http://localhost/hmc/webroot/public/
-
-Done :-)
 

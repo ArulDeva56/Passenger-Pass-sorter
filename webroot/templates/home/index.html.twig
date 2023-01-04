@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Pass sorter!{% endblock %}
+
+{% block body %}
+
+<div style="text-align: left">
+
+   <ul>
+    {% for key, value in listByOrderInfos %}
+    {# {{ dump(infos) }} #}
+        <ol>  {{ loop.index }}. {{ value }}  </ol>
+    {% endfor %}
+
+ {% set size = listByOrderInfos | length %}
+ {% set count = size + 1 %}
+
+  <ol> {{ count  }}.  You have arrived at your final destination. </ol>
+
+
+
+</ul>
+
+</div>
+
+{% endblock %}
