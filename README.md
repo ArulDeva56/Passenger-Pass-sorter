@@ -1,9 +1,8 @@
-# Pass_sorter
-Symfony Framework  Pass sorter program 
 Requirement Symfony 6.*
 PHP 8.0
 
-Step 1 : 
+Step 1 :
+-------- 
 
 Please download xampp 8.0 using below link
 https://www.apachefriends.org/download.html
@@ -11,14 +10,16 @@ https://www.apachefriends.org/download.html
 After download please intall the xampp 8.0 
 
 Step 2:
+-------
 
 Please download and install the composer using below mentioned link 
 While installation please choose PHP exe file from insatlled xampp location C:\xampp\php\php.exe
 https://getcomposer.org/download/
 
 Step 3:
+-------
 
-Read step 4 for download the symfony from gitHub or you can use below step to install symfony
+Read *step 4* for download the symfony from gitHub or you can use below step to install symfony
 
 Install Symfony 6.*
 
@@ -41,18 +42,28 @@ Now we are going to install Symfony
 	We have succesfully installed Symfony 6.*
 	
 Step 4: 
+-------
 
-Please download the Symfony from belolw mentioned gitHub link
+Please download the Symfony from below mentioned gitHub link
+
+from 
 
 https://github.com/ArulDeva56/Pass_sorter.git
 
 to destination Path
 
-D:\xampp\htdocs\hmc
+C:\xampp\htdocs\hmc
+
+Open cmd mentioned direcorty C:\xampp\htdocs\hmc\webroot
+
+then run below install comment
+
+composer install
 
 then you can run now below URL 
 
 http://localhost/hmc/webroot/public/
 
 Done :-)
+
 
